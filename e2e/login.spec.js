@@ -18,7 +18,7 @@ test("successful login", async ({ page }) => {
 
   const resultElement = page.getByTestId("login-message");
 
-  expect(await resultElement.textContent()).toEqual("Успешный вход !");
+  expect(await resultElement.textContent()).toEqual("Успешный вход!");
 });
 
 test("wrong email", async ({ page }) => {
